@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_rom"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Rom检测" />
+        <item
+            android:id="@+id/nav_proxy"
+            android:checkable="false"
+            android:icon="@drawable/ic_chrome_reader_mode_black_24dp"
+            android:title="设置代理" />
+        <item
+            android:id="@+id/nav_manage"
+            android:checkable="false"
+            android:icon="@drawable/ic_build_black_24dp"
+            android:title="重新下载证书" />
+        <item
+            android:id="@+id/nav_help"
+            android:checkable="false"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="帮助" />
+
+    </group>
+
+</menu>
